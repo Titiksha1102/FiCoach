@@ -9,6 +9,7 @@ from .sub_agents.budget_agent.agent import budget_agent
 from .sub_agents.debt_agent.agent import debt_agent
 from .sub_agents.investment_agent.agent import investment_agent
 
+
 root_agent = Agent(
     model='gemini-2.0-flash-001', # Using an updated model name
     name='root_agent',
